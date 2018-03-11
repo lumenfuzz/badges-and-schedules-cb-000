@@ -22,7 +22,7 @@ end
 def printer(attendees)
   counter = 0
   attendees.each do |attendant|
-    puts "#{attendant}, {counter+1}"
+    puts "Hello, my name is #{attendant}."
     counter += 1
   end
 end
