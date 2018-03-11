@@ -20,5 +20,9 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  gets.chomp
+  counter = 0
+  attendees.each do |attendant|
+    puts "#{attendant}, {counter+1}"
+    counter += 1
+  end
 end
