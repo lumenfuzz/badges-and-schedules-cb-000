@@ -7,14 +7,14 @@ def batch_badge_creator(attendees)
   counter = 0
   attendees.each do |attendant|
     attendees[counter] = "Hello, my name is #{attendant}"
+      counter += 1
   end
-  counter += 1
 end
 
 def assign_rooms(attendees)
   counter = 0
   attendees.each do |attendant|
-    attendees[counter] = "Hello, #{attendant}! You'll be assigned to room #{counter}!"
+    attendees[counter] = "Hello, #{attendant}! You'll be assigned to room #{counter+1}!"
     counter += 1
   end
 end
