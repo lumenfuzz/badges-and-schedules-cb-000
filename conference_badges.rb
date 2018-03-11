@@ -19,9 +19,3 @@ end
 
 def printer
 end
-
-def badges_and_room_assignments
-end
-
-def room_assignments
-end
